@@ -1,0 +1,30 @@
+* {
+
+
+}
+
+
+.bar-header {
+display: flex;
+text-align: right;
+text-direction: row-reverse;
+
+}
+
+.lightbaby-text {
+    font-weight: 200; 
+    text-decoration: overline underline #e6d0ce;
+    display: flex;
+    flex-direction: center;
+}
+
+
+#[id] {
+
+
+}
+
+/* :hover for the "about / work / contact" parts! */
+
+
+
