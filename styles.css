@@ -1,30 +1,111 @@
-* {
+* {font-family: andale mono, moonspace;
+}
 
+.body {
+    background-color: 
+}
+
+#special-title {
+    color: black; 
+    text-decoration: 5px overline underline #e6d0ce;
+    transition 0.5s 0.25 ease; 
+}
+
+
+#special-title:hover {
+    color:  #e6d0ce;
+    font-size: 200%;
 
 }
 
 
-.bar-header {
-display: flex;
-text-align: right;
-text-direction: row-reverse;
+/* .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 15px; */
 
+
+#self-image {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
-.lightbaby-text {
-    font-weight: 200; 
-    text-decoration: overline underline #e6d0ce;
+.header-row {
     display: flex;
-    flex-direction: center;
+    justify-content: center;
+    border: 5px dashed #e6d0ce;
 }
 
 
-#[id] {
-
+.gmail-photo {
+    height: 34px;
+    width: 42px;
 
 }
 
-/* :hover for the "about / work / contact" parts! */
+.gmail-photo:hover {
+    background-color: #e6d0ce;
+
+}
+
+.linkedin-photo {
+    height: 35px;
+    width: 35px;
+
+}
+
+.linkedin-photo:hover {
+    background-color: #e6d0ce;
+
+}
+
+.pass-photo {
+    height: 170px;
+    width: 500px;
+}
+
+/* .grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:  150px 100px 150px 100px ;
+    grid-template-rows: repeat(3,minmax(100px,auto));
+    background-color:  #e6d0ce; 
+
+}
+
+.header-title {
+    grid-column: 1 / 3;
+}
+
+.contact-icons{
+    grid-column: 4 ;
+} */
 
 
+ .grid-container {
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) 200px 200px;
+    margin-bottom: 2em;
 
+ }
+
+ .contact-icons{
+    padding:2px;
+
+
+ }
+
+ .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ .feedback-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
